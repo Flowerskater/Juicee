@@ -127,6 +127,10 @@
   #homepage-slider .bx-wrapper .bx-next:after {
     content: "\f054"; }
 
+  #homepage-slider .bx-wrapper {
+    margin: 0 auto !important;
+  }
+
 .ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
   background: #333; }
 
