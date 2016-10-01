@@ -461,7 +461,7 @@ span.view_scroll_spacer {
       z-index: 2;
       width: 51px;
       text-align: center;
-      border: 1px solid #06b2e6;
+      border: 1px solid #ff6f00;
       -moz-border-radius: 5px 0 0 5px;
       -webkit-border-radius: 5px;
       border-radius: 5px 0 0 5px; }
@@ -478,7 +478,7 @@ span.view_scroll_spacer {
       -moz-animation: 2s linear 0s normal none infinite spin;
       border: none; }
     .box-info-product .exclusive:after {
-      background: url(../img/border-1.gif) repeat-y 0 0;
+      background: white;
       position: absolute;
       top: 0;
       bottom: 0;
