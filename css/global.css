@@ -239,7 +239,8 @@ body {
   font-size: 13px;
   line-height: 1.42857;
   color: #777777;
-  background: url(../img/juicee_background.png) no-repeat center fixed; 
+  /*background: url(../img/juicee_background.png) no-repeat center fixed; */
+  background: url(../img/juicee_background_2.png) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
