@@ -256,6 +256,7 @@ body {
     padding: 8px 9px 11px 8px;
     cursor: pointer;
     line-height: 18px;
+    width: 100%;
 }
 
 #block_top_menu ul li a:hover, #block_top_menu ul li a.active {
