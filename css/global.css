@@ -245,6 +245,32 @@ body {
   background-size: cover; /* version standardisée */
 }
 
+#block_top_menu .cat-title {
+  display: none;
+}
+
+#block_top_menu ul li {
+  float: left;
+}
+
+#block_top_menu ul li a {
+  color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 9px 11px 8px;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+#block_top_menu ul li a:hover, #block_top_menu ul li a.active {
+    background: #fff;
+    color: #ff6f00;
+}
+
+#header ul {
+  margin: 0;
+}
+
 #overlay {
     height: 100%;
     width: 100%;
@@ -8593,32 +8619,6 @@ div.star.star_hover:after {
 .pointer-box {
   cursor: pointer; }
 
-
-#block_top_menu .cat-title {
-  display: none;
-}
-
-#block_top_menu ul li {
-  float: left;
-}
-
-#block_top_menu ul li a {
-  color: white;
-    font-weight: bold;
-    display: inline-block;
-    padding: 8px 9px 11px 8px;
-    cursor: pointer;
-    line-height: 18px;
-}
-
-#block_top_menu ul li a:hover, #block_top_menu ul li a.active {
-    background: #fff;
-    color: #ff6f00;
-}
-
-#header ul {
-  margin: 0;
-}
 
 
 /*# sourceMappingURL=global.css.map */
