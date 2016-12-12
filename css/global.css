@@ -249,12 +249,8 @@ body {
   display: none;
 }
 
-#block_top_menu ul li {
-  float: left;
-}
-
 #block_top_menu ul li a {
-  color: white;
+    color: white;
     font-weight: bold;
     display: inline-block;
     padding: 8px 9px 11px 8px;
@@ -268,13 +264,20 @@ body {
 }
 
 #header ul {
-  margin: 0;
+    margin: 0;
+}
+
+#block_top_menu ul li {float: left;}
+@media (max-width: 768px) {
+    #block_top_menu ul li {float: none; text-align: center;}
+    .header_user_info {float: none; text-align: center;}
+
 }
 
 @media (max-width: 479px) {
-#block_top_menu ul li a {
-    font-size: 11px;
-}
+  #block_top_menu ul li a {
+      font-size: 11px;
+  }
 }
 
 
