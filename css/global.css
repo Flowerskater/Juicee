@@ -8598,6 +8598,10 @@ div.star.star_hover:after {
   display: none;
 }
 
+#block_top_menu ul li {
+  float: left;
+}
+
 #block_top_menu ul li a {
   color: white;
     font-weight: bold;
