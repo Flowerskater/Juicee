@@ -271,6 +271,13 @@ body {
   margin: 0;
 }
 
+@media (max-width: 479px) {
+#block_top_menu ul li a {
+    font-size: 11px;
+}
+}
+
+
 #overlay {
     height: 100%;
     width: 100%;

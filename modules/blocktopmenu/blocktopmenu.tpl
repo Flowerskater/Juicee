@@ -1,6 +1,6 @@
 {if $MENU != ''}
 	<!-- Menu -->
-	<div id="block_top_menu" class="sf-contener clearfix col-lg-6">
+	<div id="block_top_menu" class="sf-contener clearfix col-xs-8 col-sm-6">
 		<div class="cat-title">{l s="Menu" mod="blocktopmenu"}</div>
 		<ul class="sf-menu clearfix menu-content">
 			{$MENU}
