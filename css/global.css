@@ -270,7 +270,7 @@ body {
 #block_top_menu ul li {float: left;}
 @media (max-width: 768px) {
     #block_top_menu ul li {float: none; text-align: center;}
-    .header_user_info {float: none; text-align: center;}
+    .header_user_info {float: none!important; text-align: center;}
 
 }
 
