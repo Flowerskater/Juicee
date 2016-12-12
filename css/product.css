@@ -456,12 +456,12 @@ span.view_scroll_spacer {
       color: #fff;
       font-size: 25px;
       line-height: 47px;
-      text-shadow: 0 1px #015883;
+      /*text-shadow: 0 1px #015883;*/
       content: "\f07a";
       z-index: 2;
       width: 51px;
       text-align: center;
-      border: 1px solid #ff6f00;
+      /*border: 1px solid #ff6f00;*/
       -moz-border-radius: 5px 0 0 5px;
       -webkit-border-radius: 5px;
       border-radius: 5px 0 0 5px; }
@@ -483,7 +483,7 @@ span.view_scroll_spacer {
       top: 0;
       bottom: 0;
       left: 51px;
-      content: "";
+      /*content: "";*/
       width: 1px;
       z-index: 2; }
       @media (max-width: 991px) {
@@ -512,6 +512,10 @@ span.view_scroll_spacer {
       background: transparent; }
     .box-info-product .exclusive:hover span {
       color: #ff6f00;}
+
+    .box-info-product .exclusive:hover:before {
+      color: #ff6f00;
+    }
 
 #center_column.col-sm-9 .col-md-3 .box-info-product {
   background: #f6f6f6;
