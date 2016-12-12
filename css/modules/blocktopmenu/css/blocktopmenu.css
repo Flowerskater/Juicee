@@ -2,22 +2,5 @@
 	padding-top: 25px; 
 }
 
-#block_top_menu .cat-title {
-	display: none;
-}
-
-#block_top_menu ul li a {
-	color: white;
-    font-weight: bold;
-    display: block;
-    padding: 8px 9px 11px 8px;
-    cursor: pointer;
-    line-height: 18px;
-}
-
-#block_top_menu ul li a:hover, #block_top_menu ul li a.active {
-    background: #fff;
-    color: #ff6f00;
-}
 
 /*# sourceMappingURL=blocktopmenu.css.map */
